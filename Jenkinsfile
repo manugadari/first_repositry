@@ -9,8 +9,6 @@
 pipeline {
     agent any
 
-    // Requires a configured NodeJS installation via https://plugins.jenkins.io/nodejs/
-    tools { nodejs "NodeJS 18.4.0" }
 
     stages {
           stage('Download Snyk CLI') {
